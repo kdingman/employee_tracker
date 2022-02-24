@@ -25,12 +25,12 @@ VALUES
 -- Sales Roles
 ("Account Executive", 75000, 4),
 ("Local Sales Rep", 45000, 4),
-("National Sales Rep", 55000, 4)
-("Intern", NULL, 4),
+("National Sales Rep", 55000, 4),
+("Intern", 0, 4),
 -- Promotional Staff
 ("Promotions Coordinator", 45000, 5),
 ("Field Coordinator", 20000, 5),
-("Promotions Intern", NULL, 5);
+("Promotions Intern", 0, 5);
 
 SELECT * FROM roles;
 
@@ -49,7 +49,7 @@ VALUES
 ("Eli", "Navarro", 3, 1),
 ("Meg", "Manning", 1, NULL),
 ("Jackie", "Cook", 2, 1),
-("Dick", "Casablancas", 1, NULL)
-("Michael", "Danson", 5, NULL);
+("Dick", "Casablancas", 1, NULL),
+("Michael", "Danson", 5, 1);
 
 SELECT * FROM employees;
