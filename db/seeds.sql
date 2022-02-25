@@ -5,7 +5,8 @@ VALUES
 ("management"),
 ("programming"),
 ("engineering"),
-("sales");
+("sales"),
+("promotions");
 
 SELECT * FROM departments;
 

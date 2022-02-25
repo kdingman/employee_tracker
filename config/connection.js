@@ -8,7 +8,7 @@ const db = mysql.createConnection(
         port: 3306,
         user: process.env.DB_USER,
         password: process.env.DB_PW,
-        database: 'employee_tracker'
+        database: process.env.DB_Name
     },
     console.log('You are now connected to the employee tracker database.')
 );
