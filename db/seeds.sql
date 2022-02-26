@@ -8,7 +8,7 @@ VALUES
 ("sales"),
 ("promotions");
 
-SELECT * FROM departments;
+
 
 INSERT INTO roles (title, salary, department_id)
 VALUES
@@ -33,7 +33,6 @@ VALUES
 ("Field Coordinator", 20000, 5),
 ("Promotions Intern", 0, 5);
 
-SELECT * FROM roles;
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
@@ -51,6 +50,5 @@ VALUES
 ("Meg", "Manning", 1, NULL),
 ("Jackie", "Cook", 2, 1),
 ("Dick", "Casablancas", 1, NULL),
-("Michael", "Danson", 5, 1);
-
-SELECT * FROM employees;
+("Michael", "Danson", 5, 1),
+("Jessica", "Day", 1, NULL);
