@@ -8,8 +8,6 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-// USE apiRoutes
-// app.use('/api', apiRoutes);
 
 // DEFAULT response for any other request (Not Found)
 app.use((req, res) => {
