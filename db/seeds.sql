@@ -1,6 +1,6 @@
 -- Seeds/DATA for a Radio Station employee tracker system
 
-INSERT INTO departments (name)
+INSERT INTO departments (dept_name)
 VALUES
 ("management"),
 ("programming"),
