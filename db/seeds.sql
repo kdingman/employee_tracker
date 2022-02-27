@@ -2,11 +2,11 @@
 
 INSERT INTO departments (name)
 VALUES
-("management"),
-("programming"),
-("engineering"),
-("sales"),
-("promotions");
+("Management"),
+("Programming"),
+("Engineering"),
+("Sales"),
+("Promotions");
 
 
 
