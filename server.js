@@ -13,7 +13,7 @@ app.use((req, res) => {
 
 // START server after DB connection
 db.connect(err => {
-    if(err) throw err;
+    if (err) console.log('error', err.message, err.stack)
     console.log('Database connected.');
 
     app.listen(PORT, () => {

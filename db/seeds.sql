@@ -27,7 +27,7 @@ VALUES
 ("Account Executive", 75000, 4),
 ("Local Sales Rep", 45000, 4),
 ("National Sales Rep", 55000, 4),
-("Intern", 0, 4),
+("Sales Intern", 0, 4),
 -- Promotional Staff
 ("Promotions Coordinator", 45000, 5),
 ("Field Coordinator", 20000, 5),
@@ -36,19 +36,19 @@ VALUES
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-("Eleanor", "Shellstrop", 2, 1),
+("Eleanor", "Shellstrop", 6, 2),
 ("Chidi", "Anagonye", 1, NULL),
-("Tahani", "AlJamil", 4, 1),
-("Jason", "Mendoza", 2, 1),
-("Janet", "DellaDenunzio", 1, NULL),
-("Veronica", "Mars", 3, 1),
-("Logan", "Echolls", 5, 1),
-("Wallace", "Fennel", 2, 1),
-("Lilly", "Kane", 5, 5),
-("Gia", "Goodman", 4, 4),
-("Eli", "Navarro", 3, 1),
-("Meg", "Manning", 1, NULL),
-("Jackie", "Cook", 2, 1),
-("Dick", "Casablancas", 1, NULL),
-("Michael", "Danson", 5, 1),
-("Jessica", "Day", 1, NULL);
+("Tahani", "AlJamil", 9, 4),
+("Jason", "Mendoza", 8, 2),
+("Janet", "DellaDenunzio", 2, NULL),
+("Veronica", "Mars", 13, 3),
+("Logan", "Echolls", 10, 5),
+("Wallace", "Fennel", 12, 1),
+("Lilly", "Kane", 7, 5),
+("Gia", "Goodman", 11, 4),
+("Eli", "Navarro", 14, 3),
+("Meg", "Manning", 3, NULL),
+("Jackie", "Cook", 15, 1),
+("Dick", "Casablancas", 4, NULL),
+("Michael", "Danson", 14, 5),
+("Jessica", "Day", 5, NULL);
